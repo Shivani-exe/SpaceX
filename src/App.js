@@ -18,14 +18,15 @@ export default function App() {
     <div className="container">
       <div className="heading">Space-X Rockets Encyclopedia</div>
       <h1 className="heading h1">
-        Have you ever seen the biggest rockets built by NASA?
+        Have you ever seen the biggest rockets that Elon Musk's Company SpaceX
+        is building over the years?
       </h1>
-      <h2 className="heading h2">Fetch a list from an API and display it</h2>
+      <h2 className="heading h2">You can now see by the click of a button!</h2>
 
       {/* Fetch data from API */}
       <div>
         <button className="fetch-button" onClick={fetchUrl}>
-          Fetch Data
+          See the List!
         </button>
         <br />
       </div>
