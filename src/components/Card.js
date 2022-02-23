@@ -10,7 +10,7 @@ export const Card = (prop) => (
         </p>
         <a
           href="#"
-          class="btn btn-primary"
+          class="btn-primary"
           data-toggle="modal"
           data-target={`#popup${prop.r.id}`}
         >
